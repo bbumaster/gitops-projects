@@ -19,6 +19,6 @@ spec:
         name: worker-app-pod
         app: demo-voting-app
     spec:
-    containers:
-      - name: worker-app
-        image: kodecloud/examplevotingapp_worker:v1
+      containers:
+        - name: worker-app
+          image: docker/example-voting-app-worker
