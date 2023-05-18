@@ -5,7 +5,7 @@ metadata:
   labels:
     name: redis-deploy
 spec:
-  repicas: 1
+  replicas: 1
   selector:
     matchLabels:
       name: redis-pod
