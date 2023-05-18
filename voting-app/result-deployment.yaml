@@ -6,7 +6,7 @@ metadata:
     name: result-app-app
     app: demo-result-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       name: result-app-pod
