@@ -21,4 +21,4 @@ spec:
     spec:
       containers:
         - name: worker-app
-          image: docker/example-voting-app-worker
+          image: docker/example-voting-app-worker:latest
