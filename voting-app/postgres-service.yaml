@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: db
   labels:
-    name: posgres-service
+    name: postgres-service
     app: demo-voting-app
 spec:
-  type: LoadBalancer
   ports:
     - port: 5432
       targetPort: 5432
