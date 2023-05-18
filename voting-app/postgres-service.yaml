@@ -6,9 +6,11 @@ metadata:
     name: posgres-service
     app: demo-voting-app
 spec:
+  type: NodePort
   ports:
     - port: 5432
       targetPort: 5432
+      nodePort: 5432
   selector:
     name: postgres-pod
     app: demo-voting-app
